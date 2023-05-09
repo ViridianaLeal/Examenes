@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 50px;
+}
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+div{
+    
+    background: aliceblue;
+    align-items: center;
+    
+}
+

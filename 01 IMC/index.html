@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>IMC</title>
+</head>
+<body>
+    <div>
+        <h1>IMC</h1>
+        <h3>Peso(kg)</h3>
+        <input type="range" id="peso" min="50" max="150">
+        <span id="vpeso">0</span>
+        <h3>Altura(m)</h3>
+        <input type="range" id="altura" min="1" max="2" step="0.01">
+        <span id="valtura">0</span>
+        <h1>IMC</h1>
+        <div id="res"></div>
+        <div id="con"></div>
+        <img src="/img/imc.png">
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
